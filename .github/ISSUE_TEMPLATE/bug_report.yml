@@ -1,0 +1,50 @@
+name: Bug report
+description: Report a bug in sendcraft-cli
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Please search existing issues before filing a new one.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: What happened? What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: The exact commands you ran.
+      placeholder: |
+        1. sendcraft ...
+        2. ...
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: CLI version
+      description: Output of `sendcraft --version`
+    validations:
+      required: true
+
+  - type: input
+    id: node
+    attributes:
+      label: Node.js version
+      description: Output of `node --version`
+    validations:
+      required: false
+
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: macOS 14, Ubuntu 22.04, Windows 11...
+    validations:
+      required: false
