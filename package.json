@@ -30,13 +30,13 @@
     "marketing"
   ],
   "author": "SendCraft Team <sendcraft.team@gmail.com>",
-  "homepage": "https://github.com/sendcraft/sendcraft-cli#readme",
+  "homepage": "https://github.com/sendcraftlabs/sendcraft-cli#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sendcraft/sendcraft-cli.git"
+    "url": "git+https://github.com/sendcraftlabs/sendcraft-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/sendcraft/sendcraft-cli/issues"
+    "url": "https://github.com/sendcraftlabs/sendcraft-cli/issues"
   },
   "dependencies": {
     "boxen": "^8.0.1",
