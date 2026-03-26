@@ -1,13 +1,14 @@
 {
   "name": "@sendcraft/cli",
-  "version": "1.0.0",
+  "version": "1.0.2",
+  "private": true,
   "description": "The official CLI for SendCraft — send emails, manage campaigns, and more from your terminal",
   "license": "MIT",
   "engines": {
     "node": ">=18"
   },
   "bin": {
-    "sendcraft": "./src/cli.js"
+    "sendcraft": "src/cli.js"
   },
   "scripts": {
     "dev": "node src/cli.js",
@@ -29,7 +30,7 @@
     "transactional",
     "marketing"
   ],
-  "author": "SendCraft Team <sendcraft.team@gmail.com>",
+  "author": "SendCraft Team <team@sendcraft.online>",
   "homepage": "https://github.com/sendcraftlabs/sendcraft-cli#readme",
   "repository": {
     "type": "git",

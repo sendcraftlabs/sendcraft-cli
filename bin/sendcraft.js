@@ -55,7 +55,7 @@ program.on('command:*', (args) => {
   process.exit(1);
 });
 
-// No args → show help (like Resend CLI)
+// No args → show help
 if (process.argv.length < 3) {
   program.outputHelp();
 } else {
